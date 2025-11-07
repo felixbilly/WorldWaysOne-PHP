@@ -22,7 +22,7 @@ include 'header.php';
         }
 
         .contact-section {
-            background-image: url('images/bg1.jpg');
+            background-image: url('images/bg-1.jpg');
             /* Replace with your image path */
             background-size: cover;
             background-position: center;
@@ -81,7 +81,7 @@ include 'header.php';
 
 <body>
 
- 
+
 
     <!-- Contact Section with Background Image -->
     <section class="contact-section">

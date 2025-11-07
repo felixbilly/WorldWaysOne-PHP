@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($user) {
         $_SESSION['admin'] = $user['username'];
-        header("Location: admin.php");
+        header("Location: blog-admin.php");
         exit;
     } else {
         $error = "Invalid login credentials.";

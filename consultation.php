@@ -2,17 +2,16 @@
 require 'config.php';
 
 // set custom page title
-$pageTitle = "consultations";
+$pageTitle = "consultation";
 
 // include header
 include 'header.php';
 ?>
 
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Consultation</title>
+    <title>Youth Empowerment | WorldwaysOne</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
     <style>
@@ -48,7 +47,6 @@ include 'header.php';
             text-align: center;
         }
 
-
         .cta {
             background-color: #e8f5e9;
             padding: 2rem;
@@ -68,102 +66,233 @@ include 'header.php';
         .cta .btn:hover {
             background-color: #256428;
         }
+
+        /* Truncated text style */
+        .truncated-text {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-height: 4.5em;
+        }
+
+        /* Lightbox styles */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lightbox-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #2e7d32;
+        }
+
+        .read-more-btn {
+            color: #2e7d32;
+            cursor: pointer;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        .read-more-btn:hover {
+            color: #256428;
+        }
+
+        /* Lightbox image style */
+        .lightbox-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 
 <body>
-
-
-
+    <!-- Section -->
     <section class="py-5">
         <div class="container">
-            <h2 class="section-title text-center mb-4">Consultation</h2>
-            <p class="text-center mb-5">////////////////////////////</p>
+            <div class="cta mt-5">
+                <h2 class="section-title text-center mb-4">Consultations</h2>
+                <p><strong>WorldwaysOne Ventures</strong> reorganizes the fact that every person has a unique talent and
+                    the potential to accomplish it and they just need external trigger in terms of support in order to
+                    actualize the same.
+                    We design and implement programs that equip young people with skills, mentorship, and opportunities
+                    to thrive.
+                    Some of the Key initiatives include:</p>
+            </div>
 
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="fleet-card">
-                        <img src="images/con1.jpg" alt="CyberSecurity" class="fleet-img mb-3">
+                        <img src="images/con1.jpg" alt="Forums" class="fleet-img mb-3">
                         <h5 class="text-success">CyberSecurity</h5>
-                        <p>WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                        <p class="truncated-text" data-full-text="WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
                             the world. Since 2015, it has
                             achieved success stories in conducting conferences, offering corporate trainings, managing
                             delegations, doing legal consutacies and
                             running youth projects. It operates out of Nairobi and provides a platform for connecting,
                             people, technologies and innovations to
-                            leaders, decision-makers, companies and investors.</p>
+                            leaders, decision-makers, companies and investors.">
+                            WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                            the world. Since...
+                        </p>
+                        <span class="read-more-btn">Read More</span>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="fleet-card">
-                        <img src="images/con1.jpg" alt="Publications" class="fleet-img mb-3">
+                        <img src="images/con1.jpg" alt="Tours" class="fleet-img mb-3">
                         <h5 class="text-success">Publications</h5>
-                        <p>WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                        <p class="truncated-text" data-full-text="WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
                             the world. Since 2015, it has
                             achieved success stories in conducting conferences, offering corporate trainings, managing
                             delegations, doing legal consutacies and
                             running youth projects. It operates out of Nairobi and provides a platform for connecting,
                             people, technologies and innovations to
-                            leaders, decision-makers, companies and investors.</p>
+                            leaders, decision-makers, companies and investors.">
+                            WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                            the world. Since...
+                        </p>
+                        <span class="read-more-btn">Read More</span>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="fleet-card">
-                        <img src="images/con1.jpg" alt="Market Surveys" class="fleet-img mb-3">
+                        <img src="images/con1.jpg" alt="Students" class="fleet-img mb-3">
                         <h5 class="text-success">Market Surveys</h5>
-                        <p>WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                        <p class="truncated-text" data-full-text="WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
                             the world. Since 2015, it has
                             achieved success stories in conducting conferences, offering corporate trainings, managing
                             delegations, doing legal consutacies and
                             running youth projects. It operates out of Nairobi and provides a platform for connecting,
                             people, technologies and innovations to
-                            leaders, decision-makers, companies and investors..</p>
+                            leaders, decision-makers, companies and investors.">
+                            WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                            the world. Since...
+                        </p>
+                        <span class="read-more-btn">Read More</span>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="fleet-card">
-                        <img src="images/con1.jpg" alt="Advocacy" class="fleet-img mb-3">
+                        <img src="images/con1.jpg" alt="Students" class="fleet-img mb-3">
                         <h5 class="text-success">Advocacy</h5>
-                        <p>WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                        <p class="truncated-text" data-full-text="WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
                             the world. Since 2015, it has
                             achieved success stories in conducting conferences, offering corporate trainings, managing
                             delegations, doing legal consutacies and
                             running youth projects. It operates out of Nairobi and provides a platform for connecting,
                             people, technologies and innovations to
-                            leaders, decision-makers, companies and investors.</p>
+                            leaders, decision-makers, companies and investors.">
+                            WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                            the world. Since...
+                        </p>
+                        <span class="read-more-btn">Read More</span>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="fleet-card">
-                        <img src="images/con1.jpg" alt="Products Solutions" class="fleet-img mb-3">
+                        <img src="images/youth1.jpg" alt="Students" class="fleet-img mb-3">
                         <h5 class="text-success">Product Solutions</h5>
-                        <p>WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                        <p class="truncated-text" data-full-text="WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
                             the world. Since 2015, it has
                             achieved success stories in conducting conferences, offering corporate trainings, managing
                             delegations, doing legal consutacies and
                             running youth projects. It operates out of Nairobi and provides a platform for connecting,
                             people, technologies and innovations to
-                            leaders, decision-makers, companies and investors.</p>
+                            leaders, decision-makers, companies and investors.">
+                            WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                            the world. Since...
+                        </p>
+                        <span class="read-more-btn">Read More</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <img id="lightbox-img" class="lightbox-img" src="" alt="">
+            <h5 class="text-success" id="lightbox-title"></h5>
+            <p id="lightbox-text"></p>
+        </div>
+    </div>
+
     <!-- CTA -->
-    <section>
-        <div class="cta mt-5">
-            <h4>Want to venture with us or learn more?</h4>
-            <p>Build a garden of opportunities that are accessible and sustainable</p>
-            <a href="contacts.php" class="btn">Contact Us</a>
-        </div>
-        </div>
+    <div class="cta mt-5">
+        <h4>Want to venture with us or learn more?</h4>
+        <p>Build a garden of opportunities that are accessible and sustainable</p>
+        <a href="contacts.php" class="btn">Contact Us</a>
+    </div>
     </section>
 
-    <!-- Footer -->
-    <!-- <footer class="footer mt-5">
-  <p>&copy; 2025 WorldWaysOne Ventures . All Rights Reserved.</p>
-</footer> -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const readMoreButtons = document.querySelectorAll('.read-more-btn');
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxTitle = document.getElementById('lightbox-title');
+            const lightboxText = document.getElementById('lightbox-text');
+            const closeBtn = document.querySelector('.close-btn');
+
+            readMoreButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const card = this.closest('.fleet-card');
+                    const imgSrc = card.querySelector('.fleet-img').src;
+                    const imgAlt = card.querySelector('.fleet-img').alt;
+                    const title = card.querySelector('h5').textContent;
+                    const fullText = card.querySelector('.truncated-text').dataset.fullText;
+
+                    lightboxImg.src = imgSrc;
+                    lightboxImg.alt = imgAlt;
+                    lightboxTitle.textContent = title;
+                    lightboxText.textContent = fullText;
+                    lightbox.style.display = 'flex';
+                });
+            });
+
+            closeBtn.addEventListener('click', function () {
+                lightbox.style.display = 'none';
+            });
+
+            // Close lightbox when clicking outside content
+            lightbox.addEventListener('click', function (e) {
+                if (e.target === lightbox) {
+                    lightbox.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
     <?php include 'footer.php' ?>
+</body>

@@ -285,10 +285,11 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col-md-8 col-sm-12 text-center ftco-animate">
                     <!-- <span class="subheading"></span> -->
                     <h1 class="mb-4">WORLDWAYSONE VENTURES LIMITED</h1>
-                    <p class="mb-4 mb-md-5">Access Your Oppotunities with us</p>
+                    <h4 class="mb-4 mb-md-5">Come, Explore and Connect Worldwide.</h4>
                     <p>
                         <!-- <a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> -->
-                        <a href="about.php" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Learn More</a>
+                        <a href="delegation.php" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Learn
+                            More</a>
                     </p>
                 </div>
 
@@ -304,8 +305,10 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col-md-8 col-sm-12 text-center ftco-animate">
                     <!-- <span class="subheading">Welcome</span> -->
                     <!-- <h1 class="mb-4">WORLDWAYSONE VENTURES LIMITED</h1> -->
-                    <p class="mb-4 mb-md-5">////
-                    </p>
+                    <h2 class="mb-4 mb-md-5">
+                        Malaysia & Singapore Academic Tour, Daystar University
+                    </h2>
+
 
                     <p>
                         <!-- <a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a>  -->
@@ -326,7 +329,7 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col-md-8 col-sm-12 text-center ftco-animate">
                     <!-- <span class="subheading">Welcome</span> -->
                     <!-- <h1 class="mb-4">WORLDWAYSONE VENTURES LIMITED</h1> -->
-                    <p class="mb-4 mb-md-5">Build a garden of opportunities that are accessible and sustainable</p>
+                    <h2 class="mb-4 mb-md-5">We Do not Promise, We Deliver.</h2>
                     <p>
                         <!-- <a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a>  -->
                         <a href="youth.php" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Learn More</a>
@@ -436,17 +439,16 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <h2 class="mb-4">Our Story</h2>
             </div>
             <div>
-                <p><strong>WORLDWAYSONS VENTURES LIMITED prides itself of connecting people with opportunities around
+                <p><strong><strong>WORLDWAYSONS VENTURES LIMITED </strong>prides itself of connecting people with
+                        opportunities around
                         the
                         world. Since 2015, it has
                         achieved success stories in conducting conferences, offering corporate trainings, managing
-                        delegations, doing legal consutacies and
-                        running youth projects. It operates out of Nairobi and provides a platform for connecting,
+                        delegations, doing legal consultancies and conducting youth Empowerment Programs and projects.It
+                        operates out of Nairobi and provides a platform for connecting,
                         people, technologies and innovations to
                         leaders, decision-makers, companies and investors.</p>
-                <p>WORLDWAYSONS VENTURES LIMITED founders and partners: Mr. Keniz Agira - Advocate of High Court of
-                    Kenya | Mr. John Ougo -
-                    Public Heath Practitioner| Mrs. Susan Jason - Business Development Lead</strong></p>
+
             </div>
         </div>
     </div>
@@ -476,7 +478,7 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="col-md-4 ftco-animate">
                 <div class="media d-block text-center block-6 services">
                     <div class="icon d-flex justify-content-center align-items-center mb-5">
-                        <img src="images/keniz.jpg" alt="Mr Keniz Agira" class="founder-img">
+                        <img src="images/john.jpg" alt="Mr Keniz Agira" class="founder-img">
                     </div>
                     <div class="media-body"><br>
                         <h3 class="heading">Mr. John Ougo </h3>
@@ -489,13 +491,13 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="col-md-4 ftco-animate">
                 <div class="media d-block text-center block-6 services">
                     <div class="icon d-flex justify-content-center align-items-center mb-5">
-                        <img src="images/keniz.jpg" alt="Mr Keniz Agira" class="founder-img">
+                        <img src="images/suzan.jpg" alt="Mr Keniz Agira" class="founder-img">
                     </div>
                     <div class="media-body"><br>
                         <h3 class="heading">Mrs. Susan Jason </h3>
                         <h3> Business Development Lead</h3>
-                        <p>It's our goal for all of our coffee to be grown under the highest standards of quality,
-                            using ethical sourcing practices. More than 30 blends of coffee available.</p>
+                        <p>For us to do sound business, We pride in our values of Professionalism, integrity and being
+                            accountable in all our business dealings.This has seen us grow over the years.</p>
                     </div>
                 </div>
             </div>
@@ -522,14 +524,14 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             brew method for your favorite blend or exploring our rarest offerings, you’ve come to the
                             right place. We have all the tools you need to bring your brewing game to the next level.
                         </p> -->
-                    <p><a href="about.php" class="btn btn-primary btn-outline-primary px-5 py-4">READ MORE</a></p>
+                    <!-- <p><a href="about.php" class="btn btn-primary btn-outline-primary px-5 py-4">READ MORE</a></p> -->
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="menu-entry">
-                            <p class="img" style="background-image: url(images/menu1.jpg);"></p>
+                            <p class="img" style="background-image: url(images/menu12.jpg);"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -544,7 +546,7 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     </div>
                     <div class="col-md-6">
                         <div class="menu-entry mt-lg-4">
-                            <p class="img" style="background-image: url(images/menu4.jpg);"></p>
+                            <p class="img" style="background-image: url(images/histo.jpg);"></p>
                         </div>
                     </div>
                 </div>
@@ -616,14 +618,14 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </p>
             </div>
             <div class="col-md-3 ftco-animate">
-                <p class="gallery img d-flex align-items-center" style="background-image: url(images/gallery--2.jpg);">
+                <p class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
                 <div class="icon mb-4 d-flex align-items-center justify-content-center">
 
                 </div>
                 </p>
             </div>
             <div class="col-md-3 ftco-animate">
-                <p class="gallery img d-flex align-items-center" style="background-image: url(images/gallery--3.jpg);">
+                <p class="gallery img d-flex align-items-center" style="background-image: url(images/travel.jpg);">
                 <div class="icon mb-4 d-flex align-items-center justify-content-center">
 
                 </div>
@@ -659,14 +661,14 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             aria-orientation="vertical">
                             <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
                                 role="tab" aria-controls="v-pills-1" aria-selected="true">
-                                Consultation
+                                Tours & Travel
                             </a>
 
                             <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
-                                aria-controls="v-pills-2" aria-selected="false">Delegations</a>
+                                aria-controls="v-pills-2" aria-selected="false">Professional Visits</a>
 
                             <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-3" role="tab"
-                                aria-controls="v-pills-2" aria-selected="false">Health Programs</a>
+                                aria-controls="v-pills-2" aria-selected="false">International Conferences</a>
 
 
                             <!-- <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-4" role="tab"
@@ -685,40 +687,40 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url(images/con1.jpg);"></a>
+                                                style="background-image: url(images/visit.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="#">Legal Council</a></h3>
-                                                <p>//////\\\\
+                                                <h3><a href="#">Historical Visits</a></h3>
+                                                <p>Bethlehem
                                                 </p>
-                                                <!-- <p class="price"><span>$2.90</span></p> -->
-                                                <p><a href="#" class="btn btn-primary btn-outline-primary">
-                                                        READ MORE</a></p>
+                                                <p class="price"><span></span></p>
+                                                <!-- <p><a href="#" class="btn btn-primary btn-outline-primary">
+                                                        READ MORE</a></p> -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url(images/con1.jpg);"></a>
+                                                style="background-image: url(images/del2.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="#">Digital Forencis </a></h3>
-                                                <p>/////\\\\</p>
+                                                <h3><a href="#">Academic Trips and Tours </a></h3>
+                                                <p>Daystar University Trip,Malaysia</p>
                                                 <!-- <p class="price"><span>$5.45</span></p> -->
-                                                <p><a href="#" class="btn btn-primary btn-outline-primary">
-                                                        READ MORE</a></p>
+                                                <!-- <p><a href="#" class="btn btn-primary btn-outline-primary">
+                                                        READ MORE</a></p> -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url(images/con1.jpg);"></a>
+                                                style="background-image: url(images/slide-2.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="#">Cyber security</a></h3>
-                                                <p>////\\\\</p>
+                                                <h3><a href="#">Cultural Exchange</a></h3>
+                                                <p>Dayster University, Singapore</p>
                                                 <!-- <p class="price"><span>$6.90</span></p> -->
-                                                <p><a href="#" class="btn btn-primary btn-outline-primary">
-                                                        READ MORE</a></p>
+                                                <!-- <p><a href="#" class="btn btn-primary btn-outline-primary">
+                                                        READ MORE</a></p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -730,27 +732,27 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url(images/del1.jpg);"></a>
+                                                style="background-image: url(images/gallery-2.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Trainings</a></h3>
-                                                <p>Our rich espresso
+                                                <p>Bomet County Assembly team at Jewel, Changi Airport- Singapore
                                                 </p>
                                                 <!-- <p class="price"><span>$3.50</span></p> -->
-                                                <p><a href="delegation.php" class="btn btn-primary btn-outline-primary">
-                                                        READ MORE</a></p>
+                                                <!-- <p><a href="delegation.php" class="btn btn-primary btn-outline-primary">
+                                                        READ MORE</a></p> -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url(images/del2.jpg);"></a>
+                                                style="background-image: url(images/conf2.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#">Seminars</a></h3>
-                                                <p>//////\\\\\</p>
+                                                <p>Seminars & Trainings</p>
                                                 <!-- <p class="price"><span>$4.65</span></p> -->
-                                                <p><a href="delegation.php" class="btn btn-primary btn-outline-primary">
-                                                        Read More</a></p>
+                                                <!-- <p><a href="delegation.php" class="btn btn-primary btn-outline-primary">
+                                                        Read More</a></p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -760,11 +762,11 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                                 style="background-image: url(images/del3.jpg);"></a>
                                             <div class="text">
                                                 <h3><a href="#"> Projects</a></h3>
-                                                <p>O/////\\\\</p>
-                                                <!-- <p class="price"><span>$2.50</span></p> -->
-                                                <p><a href="delegation.php"
+                                                <p>Project Delegations: Ghana </p>
+                                                <p class="price"><span></span></p>
+                                                <!-- <p><a href="delegation.php"
                                                         class="btn btn-primary btn-outline-primary">Read
-                                                        More</a></p>
+                                                        More</a></p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -776,43 +778,47 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url(images/afya1.jpg);"></a>
+                                                style="background-image: url(images/conf1.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="#">
-                                                        Clinical Services</a></h3>
-                                                <p>///////\\\\\
+                                                <h3>.
+                                                    Tech Workshops </h3>
+                                                <p>International Workshops, Telaviv
 
                                                 </p>
                                                 <!-- <p class="price"><span>$7.25</span></p> -->
-                                                <p><a href="#" class="btn btn-primary btn-outline-primary">
-                                                        Read more</a></p>
+                                                <!-- <p><a href="#" class="btn btn-primary btn-outline-primary">
+                                                        Read more</a></p> -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url(images/afya2.jpg);"></a>
+                                                style="background-image: url(images/conf.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="#">Medical Camps</a></h3>
-                                                <p>/////\\\\</p>
+                                                <h3><a href="#">Tech Conferences</a></h3>
+                                                <p>CyberX Africa Ghana 2022, Worldwaysone Delegates
+                                                </p>
                                                 <!-- <p class="price"><span>$7.50</span></p> -->
-                                                <p><a href="#"
+                                                <!-- <p><a href="#"
                                                         class="btn btn-primary btn-outline-primary">//////\\\\</a>
-                                                </p>
+                                                </p> -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4 text-center">
                                         <div class="menu-wrap">
                                             <a href="#" class="menu-img img mb-4"
-                                                style="background-image: url(images/afya3.jpg);"></a>
+                                                style="background-image: url(images/Bomet.jpg);"></a>
                                             <div class="text">
-                                                <h3><a href="#">Community Healthcare</a></h3>
-                                                <p>Two.</p>
-                                                <!-- <p class="price"><span>$5.00</span></p> -->
-                                                <p><a href="#" class="btn btn-primary btn-outline-primary">////\\\</a>
+                                                <h3><a href="#"> Benchmarking & Cultural Exchange
+                                                        Programs</a></h3>
+                                                <p>Bomet County Assembly team at Jewel, Changi
+                                                    Airport- Singapore
                                                 </p>
+                                                <!-- <p class="price"><span>$5.00</span></p> -->
+                                                <!-- <p><a href="#" class="btn btn-primary btn-outline-primary">////\\\</a>
+                                                </p> -->
                                             </div>
                                         </div>
                                     </div>
@@ -958,8 +964,8 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </div>
             </div>
             <!-- appointment-form -->
-            <div class="col-md-6 appointment ftco-animate">
-                <h3 class="mb-3">Book Time</h3>
+            <!--<div class="col-md-6 appointment ftco-animate">
+                 <h3 class="mb-3">Book Time</h3>
                 <form action="#" class="appointment-form">
                     <div class="d-md-flex">
                         <div class="form-group">
@@ -993,10 +999,10 @@ $uploads = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         </div>
                         <div class="form-group ml-md-4">
                             <input type="submit" value="Appointment" class="btn btn-primary py-3 px-4">
-                        </div>
+                        </div> 
                     </div>
                 </form>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>

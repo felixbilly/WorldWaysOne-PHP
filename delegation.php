@@ -8,11 +8,10 @@ $pageTitle = "Delegation";
 include 'header.php';
 ?>
 
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Legal Services | WorldWaysOne </title>
+    <title>Legal Services | WorldWaysOne</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
     <style>
@@ -48,7 +47,6 @@ include 'header.php';
             text-align: center;
         }
 
-
         .cta {
             background-color: #e8f5e9;
             padding: 2rem;
@@ -68,74 +66,194 @@ include 'header.php';
         .cta .btn:hover {
             background-color: #256428;
         }
+
+        /* Truncated text style */
+        .truncated-text {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-height: 4.5em;
+        }
+
+        /* Lightbox styles */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lightbox-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #2e7d32;
+        }
+
+        .read-more-btn {
+            color: #2e7d32;
+            cursor: pointer;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        .read-more-btn:hover {
+            color: #256428;
+        }
+
+        /* Lightbox image style */
+        .lightbox-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 
 <body>
-
-
-
     <section class="py-5">
-        <div class="container">
-            <h2 class="section-title text-center mb-4">Delegations</h2>
-            <p class="text-center mb-5">///////////////////</p>
+        <div>
 
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="fleet-card">
-                        <img src="images/menu4.jpg" alt="Sedans and Wagons" class="fleet-img mb-3">
-                        <h5 class="text-success">conferences</h5>
-                        <p>Over 50 clean, GPS-tracked vehicles available for airport transfers, corporate rides, and
-                            daily hire.</p>
-                    </div>
+            <div class="container">
+                <div class="cta mt-5">
+                    <h2 class="section-title text-center mb-4">Delegations</h2>
+                    <p class="text-center mb-5">We facilitate seamless global travel experience and manage international
+                        delegations for conferences, summits and study tours. </p>
                 </div>
-                <div class="col-md-4">
-                    <div class="fleet-card">
-                        <img src="images/con1.jpg" alt="legal" class="fleet-img mb-3">
-                        <h5 class="text-success">Team Building</h5>
-                        <p>Build a garden of opportunities that are accessible and sustainable.</p>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="fleet-card">
+                            <img src="images/menu4.jpg" alt="Sedans and Wagons" class="fleet-img mb-3">
+                            <h5 class="text-success">International Conference </h5>
+                            <p class="truncated-text"
+                                data-full-text="Over 50 clean, GPS-tracked vehicles available for airport transfers, corporate rides, and daily hire.">
+
+                                Our firm offers world-class strategies for enhancing institutional performance through
+                                process refinement, policy formulation, and cultural transformation. With finely-tuned
+                                expertise, we facilitate targeted changes that drive institutional transformation,
+                                create job opportunities, and foster personal growth, delivering sustainable results and
+                                meaningful impact within organizations
+                            </p>
+                            <span class="read-more-btn">Read More</span>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="fleet-card">
-                        <img src="images/del3.jpg" alt="legal" class="fleet-img mb-3">
-                        <h5 class="text-success">Trainings</h5>
-                        <p>Build a garden of opportunities that are accessible and sustainable.</p>
+                    <div class="col-md-4">
+                        <div class="fleet-card">
+                            <img src="images/tech.jpg" alt="legal" class="fleet-img mb-3">
+                            <h5 class="text-success">Academic Trips & Cultural Exchange Programs</h5>
+                            <p class="truncated-text"
+                                data-full-text="Build a garden of opportunities that are accessible and sustainable.">
+                                Build a garden of opportunities that are accessible and sustainable...
+                            </p>
+                            <span class="read-more-btn">Read More</span>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="fleet-card">
-                        <img src="images/slide-1.jpg" alt="legal" class="fleet-img mb-3">
-                        <h5 class="text-success">Academic Trip delegation</h5>
-                        <p>Build a garden of opportunities that are accessible and sustainable.</p>
+                    <div class="col-md-4">
+                        <div class="fleet-card">
+                            <img src="images/jerusalem.jpg" alt="legal" class="fleet-img mb-3">
+                            <h5 class="text-success">Professional Travel & Historical Tours</h5>
+                            <p class="truncated-text"
+                                data-full-text="Build a garden of opportunities that are accessible and sustainable.">
+                                Build a garden of opportunities that are accessible and sustainable...
+                            </p>
+                            <span class="read-more-btn">Read More</span>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="fleet-card">
-                        <img src="images/slide-2.jpg" alt="legal" class="fleet-img mb-3">
-                        <h5 class="text-success">World Ventures</h5>
-                        <p>Build a garden of opportunities that are accessible and sustainable</p>
+
+
+                    <div class="col-md-6">
+                        <div class="fleet-card">
+                            <img src="images/isra.jpg" alt="legal" class="fleet-img mb-3">
+                            <h5 class="text-success">Custom Tours & Delegation Management.</h5>
+                            <p class="truncated-text"
+                                data-full-text="Build a garden of opportunities that are accessible and sustainable.">
+                                Build a garden of opportunities that are accessible and sustainable...
+                            </p>
+                            <span class="read-more-btn">Read More</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
-    <section>
-        <!-- CTA -->
-        <div class="cta mt-5">
-            <h4>Want to venture with us or learn more?</h4>
-            <p>Build a garden of opportunities that are accessible and sustainable</p>
-            <a href="contact.html" class="btn">Contact Us</a>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <img id="lightbox-img" class="lightbox-img" src="" alt="">
+            <h5 class="text-success" id="lightbox-title"></h5>
+            <p id="lightbox-text"></p>
         </div>
-        </div>
-    </section>
+    </div>
 
-    <!-- Footer -->
-    <!-- <footer class="footer mt-5">
-  <p>&copy; 2025 WorldWaysOne. All Rights Reserved.</p>
-</footer> -->
+    <!-- CTA -->
+    <div class="cta mt-5">
+        <h4>Want to venture with us or learn more?</h4>
+        <p>Build a garden of opportunities that are accessible and sustainable</p>
+        <a href="contact.html" class="btn">Contact Us</a>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const readMoreButtons = document.querySelectorAll('.read-more-btn');
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxTitle = document.getElementById('lightbox-title');
+            const lightboxText = document.getElementById('lightbox-text');
+            const closeBtn = document.querySelector('.close-btn');
+
+            readMoreButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const card = this.closest('.fleet-card');
+                    const imgSrc = card.querySelector('.fleet-img').src;
+                    const imgAlt = card.querySelector('.fleet-img').alt;
+                    const title = card.querySelector('h5').textContent;
+                    const fullText = card.querySelector('.truncated-text').dataset.fullText;
+
+                    lightboxImg.src = imgSrc;
+                    lightboxImg.alt = imgAlt;
+                    lightboxTitle.textContent = title;
+                    lightboxText.textContent = fullText;
+                    lightbox.style.display = 'flex';
+                });
+            });
+
+            closeBtn.addEventListener('click', function () {
+                lightbox.style.display = 'none';
+            });
+
+            // Close lightbox when clicking outside content
+            lightbox.addEventListener('click', function (e) {
+                if (e.target === lightbox) {
+                    lightbox.style.display = 'none';
+                }
+            });
+        });
+    </script>
 
     <?php include 'footer.php' ?>
+</body>

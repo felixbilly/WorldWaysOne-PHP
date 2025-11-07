@@ -106,31 +106,25 @@ include 'header.php';
         p.thick {
             font-weight: bold;
         }
+
+        /* founder  */
+        .founder-img {
+            width: 150px;
+            /* adjust size as needed */
+            height: 150px;
+            object-fit: cover;
+            /* crops nicely instead of stretching */
+            border-radius: 10%;
+            /* makes it circular like an icon */
+            border: 1px solid #eee;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">
-      <img src="images/logo.png" alt="Absolute Safaris Logo" height="40">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="fleet.html">Fleet</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
+
 
     <!-- About Us -->
     <section class="py-5">
@@ -142,6 +136,7 @@ include 'header.php';
             <br>
             <div class="cta mt-5">
                 <h4>Want to venture with us or learn more?</h4>
+                <h2 class="section-title text-center">About Us</h2>
                 <p>
                     Worldwaysone Ventures Limited offers the best services in form of management and supervisory
                     Workshops
@@ -170,69 +165,111 @@ include 'header.php';
 
             </div>
             <!-- Mission, Vision, Core Values -->
-            <div class="row g-4 mb-5">
-                <div class="col-md-4">
-                    <div class="info-card">
-                        <h5> Mission</h5>
-                        <p>
-                            To provide tailor-made improvement services
-                            to our clients so as to ensure maximum return on investments
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-card">
-                        <h5> Vision</h5>
-                        <p>To offer Superior Consulting Services Worldwide.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-card">
-                        <h5>Core Values</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li> <strong class="thick">✅ Professionalism:</strong> We make sure that every work is done
-                                professionally to the satisfaction of our clients.</li>
-                            <li><strong class="thick">✅ Integrity:</strong> We insist on Maintaining Integrity in all
-                                aspects of our work.</li>
-                            <li><strong class="thick">✅ Accountability:</strong> In order to ‘to do more with less for
-                                more’, accountability is our pride.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <section class="ftco-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 pr-md-5">
+                            <div class="heading-section text-md-right ftco-animate">
+                                <!-- <span class="subheading">Discover</span> -->
+                                <h2 class="mb-4">Our values</h2>
+                                <h4>Professionalism</h4>
+                                <p>Every job is done efficiently and professionally with the client in mind.</p>
 
+                                <h4>Integrity</h4>
+                                <p>We insist on maintaining integrity in everything we do.</p>
+                                <h4>Accountability</h4>
+                                <p>In order to do 'more with less for more', accountability is our pride.</p>
+
+                                <!-- <p class="mb-4">Whether you're searching for something new to warm your mug, seeking the best
+                            brew method for your favorite blend or exploring our rarest offerings, you’ve come to the
+                            right place. We have all the tools you need to bring your brewing game to the next level.
+                        </p> -->
+                                <!-- <p><a href="about.php" class="btn btn-primary btn-outline-primary px-5 py-4">READ MORE</a></p> -->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="menu-entry">
+                                        <p class="img" style="background-image: url(images/menu12.jpg);"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-entry mt-lg-4">
+                                        <p class="img" style="background-image: url(images/menu2.jpg);"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-entry">
+                                        <p class="img" style="background-image: url(images/menu-3i.jpg);"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-entry mt-lg-4">
+                                        <p class="img" style="background-image: url(images/histo.jpg);"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Team Section -->
-            <h3 class="text-center section-title">Meet Our Team</h3>
-            <div class="row g-4">
-                <div class="col-md-4 col-sm-6">
-                    <div class="team-card">
-                        <img src="images/keniz.jpg" alt="" class="team-img">
-                        <h5>Mr. Keniz Agira</h5>
-                        <p class="text-muted">Advocate High Court of Kenya</p>
-                        <p>We continue to serve customer needs through safe and convenient methods, including
-                            drive-through service, dine-in, digital ordering and contactless pay.</p>
-                    </div>
+            <!-- Founders -->
+            <section class="ftco-section ftco-services">
+                <div class=" media d-block text-center block-6 services">
+                    <h3 class="heading">Founders</h3>
+                    <!-- <h2 class="mb-4">Founders</h2> -->
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="team-card">
-                        <img src="images/keniz.jpg" alt="" class="team-img">
-                        <h5>Mr. John Ougo</h5>
-                        <p class="text-muted">Public Heath Practitioner</p>
-                        <p>We aim at challenging the status quo and finding new ways to grow our company and each other
-                            while being present, connecting with transparency, dignity and respect.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mx-sm-auto">
-                    <div class="team-card">
-                        <img src="images/keniz.jpg" alt="" class="team-img">
-                        <h5>Mrs. Susan Jason</h5>
-                        <p class="text-muted">Customer Care Manager</p>
-                        <p>We aim at challenging the status quo and finding new ways to grow our company and each other
-                            while being present, connecting with transparency, dignity and respect.
-                    </div>
-                </div>
-            </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 ftco-animate">
+                            <div class="media d-block text-center block-6 services">
+                                <div class="icon d-flex justify-content-center align-items-center mb-5">
+                                    <img src="images/keniz.jpg" alt="Mr Keniz Agira" class="founder-img">
+                                </div>
+                                <div class="media-body"><br>
+                                    <h3 class="heading">Mr Keniz Agira</h3>
+                                    <h3>Advocate of High Court of Kenya</h3>
+                                    <p>We aim at challenging the status quo and finding new ways to grow our company and
+                                        each
+                                        other while being present, connecting with transparency, dignity and respect.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-md-4 ftco-animate">
+                            <div class="media d-block text-center block-6 services">
+                                <div class="icon d-flex justify-content-center align-items-center mb-5">
+                                    <img src="images/john.jpg" alt="Mr Keniz Agira" class="founder-img">
+                                </div>
+                                <div class="media-body"><br>
+                                    <h3 class="heading">Mr. John Ougo </h3>
+                                    <h3>Public Heath Practitioner</h3>
+                                    <p>We continue to serve customer needs through safe and convenient methods,
+                                        including
+                                        drive-through service, dine-in, digital ordering and contactless pay. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ftco-animate">
+                            <div class="media d-block text-center block-6 services">
+                                <div class="icon d-flex justify-content-center align-items-center mb-5">
+                                    <img src="images/suzan.jpg" alt="Mr Keniz Agira" class="founder-img">
+                                </div>
+                                <div class="media-body"><br>
+                                    <h3 class="heading">Mrs. Susan Jason </h3>
+                                    <h3> Business Development Lead</h3>
+                                    <p>It's our goal for all of our coffee to be grown under the highest standards of
+                                        quality,
+                                        using ethical sourcing practices. More than 30 blends of coffee available.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- CTA -->
             <div class="cta mt-5">
                 <h4>Want to venture with us or learn more?</h4>
